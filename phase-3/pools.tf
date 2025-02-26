@@ -1,4 +1,3 @@
-
 resource "bigip_ltm_monitor" "monitor" {
   name   = "/Common/terraform_monitor"
   parent = "/Common/http"

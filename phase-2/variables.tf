@@ -50,13 +50,11 @@ variable "internal_vlan_tag" {
 variable "external_selfip_name" {
   description = "external interface self ip name"
   type        = string
-
 }
 
 variable "external_selfip" {
   description = "external interface self ip"
   type        = string
-
 }
 
 variable "bigip_vip_ip" {
@@ -69,15 +67,12 @@ variable "port_lockdown" {
   type        = string
 }
 
-
 variable "internal_selfip_name" {
   description = "internal interface self ip name"
   type        = string
-
 }
 
 variable "internal_selfip" {
   description = "internal interface self ip"
   type        = string
-
 }

@@ -1,4 +1,3 @@
-
 resource "bigip_net_vlan" "external_vlan" {
   name = var.external_vlan_name
   tag  = var.external_vlan_tag

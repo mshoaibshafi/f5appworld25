@@ -4,7 +4,6 @@ provider "bigip" {
   password = var.bigip_password
 }
 
-
 terraform {
   required_providers {
     bigip = {

@@ -5,15 +5,10 @@ when CLIENT_ACCEPTED {
 
 }
 
-
 when LB_SELECTED {
 
   # logging for getting pool and pool member data
-  if { ${irule_debug} } {
-
-    log local0. "Debug is enabled"
-
-  }
+  if { ${irule_debug} } { log local0. "Debug is enabled" }
 }
 
 when HTTP_REQUEST {
