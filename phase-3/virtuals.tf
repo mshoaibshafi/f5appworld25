@@ -11,5 +11,5 @@ resource "bigip_ltm_virtual_server" "virtual-server" {
   client_profiles            = ["/Common/tcp-wan-optimized"]
   server_profiles            = ["/Common/tcp-lan-optimized"]
   source_address_translation = "automap"
-  pool = bigip_ltm_pool.pool.name
+  pool                       = bigip_ltm_pool.pool.name
 }

@@ -6,7 +6,7 @@ variable "bigip_mgmt_address" {
 variable "bigip_username" {
   description = "F5 BigIP username"
   type        = string
-  default = "admin"
+  default     = "admin"
 }
 
 variable "bigip_password" {
@@ -29,5 +29,5 @@ variable "internal_vlan_name" {
 
 variable "bigip_vip_ip" {
   description = "BigIP VIP IP"
-  type = string
+  type        = string
 }

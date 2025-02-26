@@ -11,8 +11,8 @@ resource "bigip_ltm_pool" "pool" {
 }
 
 resource "bigip_ltm_pool_attachment" "ipv4_node_attach" {
-  pool = bigip_ltm_pool.pool.name
-  node = "${bigip_ltm_node.node-10-231-20-43.address}:80"
-  depends_on = [ bigip_ltm_node.node-10-231-20-43 ]
+  pool       = bigip_ltm_pool.pool.name
+  node       = "${bigip_ltm_node.node-10-231-20-43.address}:80"
+  depends_on = [bigip_ltm_node.node-10-231-20-43]
 }
 
