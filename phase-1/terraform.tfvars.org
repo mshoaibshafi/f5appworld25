@@ -1,0 +1,22 @@
+reg_key = "add your reg key here" # e.g "XXYYZ-UUAWA-JJAEF-AJDA"
+ami_id  = "update your ami id" # e.g. "ami-03ec335050000000""
+
+aws_region         = "add your region here" # e.g "us-west-2" 
+key_name           = "key name" # "ec2_f5key"
+security_group_ids = ["sg-aabbcc"]
+
+subnet_mgmt_id     = "subnet-aabbcc" # Update Subnets ID accordingly
+subnet_internal_id = "subnet-xxyyzz"
+subnet_external_id = "subnet-axbycz"
+
+instance_type = "m5.xlarge"
+
+instance_name     = "F5BigIP-Test"
+eni_mgmt_name     = "F5BigIP-Test-MGMT"
+eni_internal_name = "F5BigIP-Test-Internal"
+eni_external_name = "F5BigIP-Test-External"
+
+device_index_mgmt     = 0
+device_index_external = 1
+device_index_internal = 2
+

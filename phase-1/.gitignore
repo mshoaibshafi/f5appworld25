@@ -1,0 +1,5 @@
+# just to avoid copy confidential data to github
+terraform.tfvars
+.t*
+terraform.tfstate.backup
+terraform.tfstate
