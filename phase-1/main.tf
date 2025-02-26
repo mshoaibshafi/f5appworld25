@@ -38,7 +38,7 @@ resource "aws_instance" "my_ec2" {
     # Resource Provisioning
     tmsh modify sys provision ltm level nominal
     tmsh save sys config
-    sleep 60
+    sleep 120
 
     # Disable Setup Utility
     tmsh modify sys global-settings gui-setup disabled
