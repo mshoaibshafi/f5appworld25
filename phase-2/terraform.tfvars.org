@@ -1,0 +1,7 @@
+external_interface = "1.1"
+external_selfip_name = "/Common/External"
+external_vlan_tag = "4094"
+internal_interface = "1.2"
+internal_selfip_name = "/Common/Internal"
+internal_vlan_tag = "4093"
+port_lockdown = "default"

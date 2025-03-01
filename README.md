@@ -15,6 +15,7 @@ Breakout session : From DataCenter to Cloud: Automating F5  Big-IP with Terrafor
 
 ## Step 2 : Phase - 2 execution
 - cd ../phase-2/
+- rename "terraform.tfvars.org" > "terraform.tfvars"
 - run :
 ```
     terraform init
