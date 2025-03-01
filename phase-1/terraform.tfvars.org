@@ -25,9 +25,12 @@ eni_internal_name = "F5BigIP-Test-Internal"
 eni_external_name = "F5BigIP-Test-External"
 
 device_index_mgmt     = 0
-
 device_index_external = 1
-
 device_index_internal = 2
-
-
+external_interface = "1.1"
+external_selfip_name = "/Common/External"
+external_vlan_tag = "4094"
+internal_interface = "1.2"
+internal_selfip_name = "/Common/Internal"
+internal_vlan_tag = "4093"
+port_lockdown = "default"
